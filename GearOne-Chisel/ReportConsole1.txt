@@ -1,0 +1,153 @@
+Unable to find image 'owasp/glue:latest' locally
+latest: Pulling from owasp/glue
+297061f60c36: Pulling fs layer
+e9ccef17b516: Pulling fs layer
+dbc33716854d: Pulling fs layer
+8fe36b178d25: Pulling fs layer
+686596545a94: Pulling fs layer
+6de22df51d29: Pulling fs layer
+5bda0811d2d0: Pulling fs layer
+a1a0893b98ca: Pulling fs layer
+da2702d6568c: Pulling fs layer
+900ceae66d53: Pulling fs layer
+b36181e26af4: Pulling fs layer
+bc59895eca86: Pull complete
+3ff7ef5c6b86: Pull complete
+35d400c183d8: Pull complete
+3b9f7c612a75: Pull complete
+3f849e0fb2e4: Pull complete
+f937336a1d3d: Pull complete
+3f113ab52e8b: Pull complete
+5e30607c0db7: Pull complete
+a456897bf0a3: Pull complete
+fd13a58e155c: Pull complete
+2d68ac873ff4: Pull complete
+55caa7f9f860: Pull complete
+02d7bed9937d: Pull complete
+99b9134e8744: Pull complete
+d02e6edf1bc5: Pull complete
+27eed5cf7183: Pull complete
+e13a8d4d5574: Pull complete
+cda3bb7ff00a: Pull complete
+0f2f380b8031: Pull complete
+f5eea271e0b4: Pull complete
+a34a7f202b95: Pull complete
+6a23e1b0426c: Pull complete
+e381f5995cc1: Pull complete
+c6e3cb3b30e8: Pull complete
+add185650397: Pull complete
+1abba91cc119: Pull complete
+Digest: sha256:94b63fb93bfa4033b0a3f697922f7dc629d1472fb099f8d511f36f35bf38ccb6
+Status: Downloaded newer image for owasp/glue:latest
+Loading scanner...
+Logfile nil?
+calling scan
+Running scanner
+Mounting ... /src
+Mounting target: /src
+Checking about mounting /src with #<Glue::DockerMounter:0x000000037f7c88>
+In Docker mounter, target: /src became:  ... wondering if it matched .docker
+Checking about mounting /src with #<Glue::FileSystemMounter:0x000000037f7440>
+Checking about mounting /src with #<Glue::GitMounter:0x000000037f71e8>
+Checking about mounting /src with #<Glue::URLMounter:0x000000037f6e00>
+Processing target.../src
+Running tasks in stage: wait
+Running tasks in stage: mount
+Running tasks in stage: file
+file - ClamAV - #<Set:0x00000003819680>
+ERROR: Problem with internal logger (UpdateLogFile = /var/log/clamav/freshclam.log).
+Malware/Virus Check
+LibClamAV Error: cli_loaddbdir(): No supported database files found in /var/lib/clamav
+ERROR: Can't open file or directory
+file - FIM - #<Set:0x0000000381e5b8>
+No existing baseline - generating initial hashes
+Running tasks in stage: code
+code - Bandit - #<Set:0x00000003829df0>
+code - Brakeman - #<Set:0x0000000382eb48>
+765: unexpected token at ''
+/home/glue/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/json-2.1.0/lib/json/common.rb:156:in `parse'
+/home/glue/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/json-2.1.0/lib/json/common.rb:156:in `parse'
+/home/glue/glue/lib/glue/tasks/brakeman.rb:27:in `analyze'
+/home/glue/glue/lib/glue/tasks.rb:81:in `block in run_tasks'
+/home/glue/glue/lib/glue/tasks.rb:58:in `each'
+/home/glue/glue/lib/glue/tasks.rb:58:in `run_tasks'
+/home/glue/glue/lib/glue/scanner.rb:21:in `block in process'
+/home/glue/glue/lib/glue/scanner.rb:17:in `each'
+/home/glue/glue/lib/glue/scanner.rb:17:in `process'
+/home/glue/glue/lib/glue.rb:270:in `scan'
+/home/glue/glue/lib/glue.rb:47:in `run'
+/home/glue/glue/bin/glue:58:in `<top (required)>'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/glue:23:in `load'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/glue:23:in `<main>'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+Raw result:
+code - BundleAudit - #<Set:0x0000000382c1e0>
+no implicit conversion of Array into String
+code - Burp - #<Set:0x000000038367d0>
+Burp
+Parsing report
+Problem running Burp ... skipped.
+no implicit conversion of nil into String
+no implicit conversion of nil into String
+No such file or directory - runCxConsole.sh
+code - Contrast - #<Set:0x0000000383b9b0>
+Contrast Security
+Running Contrast process
+undefined method `strip' for nil:NilClass
+No such file or directory - dawn
+code - ESLint - #<Set:0x000000038406e0>
+ESLint Config Path: /home/glue/glue/lib/glue/tasks
+[eslint] The 'ecmaFeatures' config file property is deprecated, and has no effect. (found in /home/glue/glue/lib/glue/tasks/scanjs-eslintrc)
+FindSecurityBugs support requires maven and pom.xml
+Please install maven somewhere in your PATH and include a valid pom.xml in the project root
+code - NodeSecurityProject - #<Set:0x00000003848a48>
+no implicit conversion of Array into String
+code - OWASPDependencyCheck - #<Set:0x0000000384dcc8>
+OWASP Dependency Check
+no implicit conversion of String into Array
+
+Install PMD from: https://pmd.github.io/
+code - RetireJS - #<Set:0x000000038513f0>
+no implicit conversion of Array into String
+code - SFL - #<Set:0x00000003856260>
+SFL
+Problem running SFL
+#<TypeError: no implicit conversion of Array into String>
+/home/glue/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/find.rb:43:in `exist?'
+/home/glue/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/find.rb:43:in `block in find'
+/home/glue/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/find.rb:43:in `collect!'
+/home/glue/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/find.rb:43:in `find'
+/home/glue/glue/lib/glue/tasks/sfl.rb:63:in `each'
+/home/glue/glue/lib/glue/tasks/sfl.rb:63:in `select'
+/home/glue/glue/lib/glue/tasks/sfl.rb:63:in `run_sfl!'
+/home/glue/glue/lib/glue/tasks/sfl.rb:26:in `run'
+/home/glue/glue/lib/glue/tasks.rb:80:in `block in run_tasks'
+/home/glue/glue/lib/glue/tasks.rb:58:in `each'
+/home/glue/glue/lib/glue/tasks.rb:58:in `run_tasks'
+/home/glue/glue/lib/glue/scanner.rb:21:in `block in process'
+/home/glue/glue/lib/glue/scanner.rb:17:in `each'
+/home/glue/glue/lib/glue/scanner.rb:17:in `process'
+/home/glue/glue/lib/glue.rb:270:in `scan'
+/home/glue/glue/lib/glue.rb:47:in `run'
+/home/glue/glue/bin/glue:58:in `<top (required)>'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/glue:23:in `load'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/glue:23:in `<main>'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/home/glue/.rvm/rubies/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+Install Snyk: 'npm install -g snyk'
+code - Test - #<Set:0x000000038598c0>
+Rootpath: [Glue::DockerMounter, Glue::FileSystemMounter, Glue::GitMounter, Glue::URLMounter]
+no implicit conversion of Array into String
+code - Trufflehog - #<Set:0x0000000385dda8>
+Trufflehog
+no implicit conversion of Array into String
+Running tasks in stage: live
+Couldn't connect to server. Tried to connect to http://localhost:9999/JSON/core/view/version/. Check that ZAP is running on the right host and port and that you have the appropriate API key, if required.
+Running tasks in stage: done
+Starting Contrast Severity Filter
+Minimum:
+No minimum found, skipping filter.
+Have 0 items pre ZAP filter.
+Have 0 items post ZAP filter.
+Running base report...
