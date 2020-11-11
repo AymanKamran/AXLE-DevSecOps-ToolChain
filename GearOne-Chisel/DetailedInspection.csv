@@ -1,0 +1,82 @@
+Processed,Id,Req. Timestamp,Resp. Timestamp,Method,URL,Code,Reason,RTT,Size Req. Header,Size Req. Body,Size Resp. Header,Size Resp. Body,Highest Alert,Tags
+Successfully,179,Thu Nov 12 03:37:01 GST 2020,Thu Nov 12 03:37:02 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/logout,200,OK,586,286,0,563,3484,Medium,"Script, SetCookie, Comment"
+Successfully,165,Thu Nov 12 03:37:01 GST 2020,Thu Nov 12 03:37:01 GST 2020,GET,https://google-gruyere.appspot.com/robots.txt,200,OK,45,250,0,492,184,Low,
+Successfully,178,Thu Nov 12 03:37:01 GST 2020,Thu Nov 12 03:37:02 GST 2020,GET,https://google-gruyere.appspot.com/sitemap.xml,404,Not Found,496,251,0,411,52,,
+Successfully,188,Thu Nov 12 03:37:02 GST 2020,Thu Nov 12 03:37:02 GST 2020,GET,https://google-gruyere.appspot.com/0,200,OK,333,297,0,447,359,Medium,
+Successfully,186,Thu Nov 12 03:37:02 GST 2020,Thu Nov 12 03:37:02 GST 2020,GET,https://google-gruyere.appspot.com/1,200,OK,287,297,0,447,359,Medium,
+Successfully,189,Thu Nov 12 03:37:02 GST 2020,Thu Nov 12 03:37:02 GST 2020,GET,https://google-gruyere.appspot.com/2,200,OK,302,297,0,447,359,Medium,
+Successfully,190,Thu Nov 12 03:37:02 GST 2020,Thu Nov 12 03:37:02 GST 2020,GET,https://google-gruyere.appspot.com/3,200,OK,324,297,0,447,359,Medium,
+Successfully,191,Thu Nov 12 03:37:02 GST 2020,Thu Nov 12 03:37:03 GST 2020,GET,https://google-gruyere.appspot.com/4,200,OK,286,297,0,447,359,Medium,
+Successfully,192,Thu Nov 12 03:37:02 GST 2020,Thu Nov 12 03:37:03 GST 2020,GET,https://google-gruyere.appspot.com/5,200,OK,281,297,0,447,359,Medium,
+Successfully,193,Thu Nov 12 03:37:03 GST 2020,Thu Nov 12 03:37:03 GST 2020,GET,https://google-gruyere.appspot.com/7,200,OK,296,297,0,447,359,Medium,
+Successfully,194,Thu Nov 12 03:37:03 GST 2020,Thu Nov 12 03:37:03 GST 2020,GET,https://google-gruyere.appspot.com/6,200,OK,297,297,0,447,359,Medium,
+Successfully,195,Thu Nov 12 03:37:03 GST 2020,Thu Nov 12 03:37:03 GST 2020,GET,https://google-gruyere.appspot.com/8,200,OK,305,297,0,447,359,Medium,
+Successfully,196,Thu Nov 12 03:37:03 GST 2020,Thu Nov 12 03:37:03 GST 2020,GET,https://google-gruyere.appspot.com/9,200,OK,306,297,0,447,359,Medium,
+Successfully,197,Thu Nov 12 03:37:03 GST 2020,Thu Nov 12 03:37:04 GST 2020,GET,https://google-gruyere.appspot.com/resetbutton,404,Not Found,303,307,0,411,52,,
+Successfully,198,Thu Nov 12 03:37:03 GST 2020,Thu Nov 12 03:37:04 GST 2020,GET,https://google-gruyere.appspot.com/start,200,OK,349,301,0,559,681,Medium,SetCookie
+Successfully,200,Thu Nov 12 03:37:04 GST 2020,Thu Nov 12 03:37:04 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/,200,OK,614,390,0,458,3484,Medium,"Script, Comment"
+Successfully,201,Thu Nov 12 03:37:04 GST 2020,Thu Nov 12 03:37:04 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/login,200,OK,567,447,0,454,2591,Medium,"Form, Password, Comment"
+Successfully,204,Thu Nov 12 03:37:04 GST 2020,Thu Nov 12 03:37:05 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/newaccount.gtl,200,OK,610,456,0,454,2961,Medium,"Form, Password, Hidden, Comment"
+Successfully,203,Thu Nov 12 03:37:04 GST 2020,Thu Nov 12 03:37:05 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/snippets.gtl?uid=cheddar,200,OK,608,466,0,454,3379,Medium,"Script, Comment"
+Successfully,219,Thu Nov 12 03:37:05 GST 2020,Thu Nov 12 03:37:05 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/snippets.gtl?uid=brie,200,OK,422,463,0,454,3059,Medium,"Script, Comment"
+Successfully,206,Thu Nov 12 03:37:05 GST 2020,Thu Nov 12 03:37:05 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/lib.js,200,OK,15,448,0,471,1962,Low,Comment
+Successfully,207,Thu Nov 12 03:37:05 GST 2020,Thu Nov 12 03:37:05 GST 2020,GET,https://google-gruyere.appspot.com/,200,OK,273,347,0,449,11506,Medium,"Script, Comment"
+Successfully,220,Thu Nov 12 03:37:05 GST 2020,Thu Nov 12 03:37:06 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240,302,Found,920,390,0,543,205,,
+Successfully,221,Thu Nov 12 03:37:05 GST 2020,Thu Nov 12 03:37:06 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/login?pw=ZAP&uid=ZAP,200,OK,800,461,0,587,3841,Medium,"Script, SetCookie, Comment"
+Successfully,227,Thu Nov 12 03:37:06 GST 2020,Thu Nov 12 03:37:06 GST 2020,GET,https://google-gruyere.appspot.com/part1,200,OK,296,351,0,449,13686,Medium,"Script, Comment"
+Successfully,236,Thu Nov 12 03:37:06 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/saveprofile?action=new&is_author=True&pw=ZAP&uid=ZAP,200,OK,422,522,0,454,2585,Medium,Comment
+Successfully,239,Thu Nov 12 03:37:06 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/part2,200,OK,579,351,0,449,37564,Medium,"Script, Comment"
+Successfully,237,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/part3,200,OK,440,351,0,449,29253,Medium,"Script, Comment"
+Successfully,242,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/part4,200,OK,364,351,0,449,24149,Medium,"Script, Comment"
+Successfully,245,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/part5,200,OK,369,351,0,449,25303,Medium,"Script, Comment"
+Not Text,250,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/static/gruyere.png,200,OK,27,364,0,493,40079,Low,
+Successfully,251,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/static/codelab.css,200,OK,15,364,0,514,740,Low,
+Not Text,252,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/static/gruyere-78.png,200,OK,15,367,0,492,2527,Low,
+Not Text,253,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/static/cheese_b.png,200,OK,14,365,0,491,682,Low,
+Not Text,255,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/static/cheese_w.png,200,OK,15,365,0,491,727,Low,
+Not Text,254,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:07 GST 2020,GET,https://google-gruyere.appspot.com/static/cheese_bw.png,200,OK,12,366,0,491,740,Low,Comment
+Successfully,256,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:08 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/snippets.gtl,200,OK,508,488,0,454,2960,Medium,"Script, Comment"
+Successfully,257,Thu Nov 12 03:37:07 GST 2020,Thu Nov 12 03:37:08 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/newsnippet.gtl,200,OK,508,490,0,454,3076,Medium,"Form, Comment"
+Successfully,260,Thu Nov 12 03:37:08 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/,200,OK,612,425,0,454,3480,Medium,"Script, Comment"
+Successfully,259,Thu Nov 12 03:37:08 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/upload.gtl,200,OK,606,486,0,454,2930,Medium,"Form, Upload, Comment"
+Successfully,273,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/editprofile.gtl,200,OK,785,491,0,454,3921,Medium,"Form, Password, Hidden, Comment"
+Successfully,267,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/code/,200,OK,248,356,0,447,354,Medium,
+Not Text,270,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/gruyere-code.zip,200,OK,20,367,0,499,35401,Low,
+Successfully,271,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/code/?gruyere.py,200,OK,334,367,0,447,370,Medium,
+Successfully,275,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:09 GST 2020,GET,https://google-gruyere.appspot.com/code/?data.py,200,OK,237,364,0,447,367,Medium,
+Successfully,278,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/code/?gtl.py,200,OK,432,363,0,447,366,Medium,
+Successfully,277,Thu Nov 12 03:37:09 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/code/?sanitize.py,200,OK,368,368,0,447,371,Medium,
+Not Text,281,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/static/closed.gif,200,OK,14,368,0,490,72,Low,
+Successfully,282,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/feed.gtl,200,OK,305,375,0,447,378,Medium,
+Successfully,283,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/editprofile.gtl,200,OK,291,382,0,447,385,Medium,
+Successfully,286,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/error.gtl,200,OK,230,376,0,447,379,Medium,
+Successfully,288,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:10 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/home.gtl,200,OK,240,375,0,447,378,Medium,
+Successfully,290,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:11 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/manage.gtl,200,OK,380,377,0,447,380,Medium,
+Successfully,291,Thu Nov 12 03:37:10 GST 2020,Thu Nov 12 03:37:11 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/menubar.gtl,200,OK,370,378,0,447,381,Medium,
+Successfully,294,Thu Nov 12 03:37:11 GST 2020,Thu Nov 12 03:37:11 GST 2020,GET,https://google-gruyere.appspot.com/code/?resoources/dump.gtl,200,OK,303,376,0,447,354,Medium,
+Successfully,295,Thu Nov 12 03:37:11 GST 2020,Thu Nov 12 03:37:11 GST 2020,GET,https://google-gruyere.appspot.com/code/?resources/dump.gtl,200,OK,303,375,0,447,378,Medium,
+Not Text,298,Thu Nov 12 03:37:11 GST 2020,Thu Nov 12 03:37:11 GST 2020,GET,https://google-gruyere.appspot.com/static/gruyere-badge.png,200,OK,16,375,0,492,2872,Low,
+Not Text,297,Thu Nov 12 03:37:11 GST 2020,Thu Nov 12 03:37:11 GST 2020,GET,https://google-gruyere.appspot.com/static/gruyere-40.png,200,OK,15,372,0,492,1181,Low,
+Successfully,299,Thu Nov 12 03:37:11 GST 2020,Thu Nov 12 03:37:12 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/newsnippet2?snippet,302,Found,592,489,0,556,2793,,Comment
+Successfully,300,Thu Nov 12 03:37:11 GST 2020,Thu Nov 12 03:37:12 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/login,200,OK,591,431,0,454,2591,Medium,"Form, Password, Comment"
+Successfully,303,Thu Nov 12 03:37:12 GST 2020,Thu Nov 12 03:37:12 GST 2020,POST,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/upload2,200,OK,306,524,25,447,224,Medium,
+Successfully,304,Thu Nov 12 03:37:12 GST 2020,Thu Nov 12 03:37:12 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/newaccount.gtl,200,OK,703,440,0,454,2961,Medium,"Form, Password, Hidden, Comment"
+Successfully,306,Thu Nov 12 03:37:12 GST 2020,Thu Nov 12 03:37:12 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/snippets.gtl?uid=cheddar,200,OK,493,450,0,454,3379,Medium,"Script, Comment"
+Successfully,309,Thu Nov 12 03:37:12 GST 2020,Thu Nov 12 03:37:13 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/snippets.gtl?uid=brie,200,OK,820,447,0,454,3059,Medium,"Script, Comment"
+Successfully,307,Thu Nov 12 03:37:12 GST 2020,Thu Nov 12 03:37:13 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/lib.js,200,OK,426,432,0,461,1962,Low,Comment
+Max Depth,308,Thu Nov 12 03:37:13 GST 2020,Thu Nov 12 03:37:13 GST 2020,GET,https://google-gruyere.appspot.com/static/codeindex/html,404,Not Found,300,372,0,411,298,,
+Max Depth,310,Thu Nov 12 03:37:13 GST 2020,Thu Nov 12 03:37:13 GST 2020,GET,https://google-gruyere.appspot.com/static/codeindex.html,200,OK,16,372,0,492,2188,Medium,
+Max Depth,312,Thu Nov 12 03:37:13 GST 2020,Thu Nov 12 03:37:14 GST 2020,GET,https://google-gruyere.appspot.com/code/gruyere.py,200,OK,584,377,0,449,45208,Medium,
+Successfully,311,Thu Nov 12 03:37:13 GST 2020,Thu Nov 12 03:37:14 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/saveprofile?action=update&color=ZAP&icon=ZAP&name=ZAP&oldpw=ZAP&private_snippet&pw=ZAP&web_site=ZAP,302,Found,568,570,0,543,205,,
+Max Depth,313,Thu Nov 12 03:37:14 GST 2020,Thu Nov 12 03:37:14 GST 2020,GET,https://google-gruyere.appspot.com/code/data.py,200,OK,331,371,0,448,4190,Medium,
+Max Depth,314,Thu Nov 12 03:37:14 GST 2020,Thu Nov 12 03:37:14 GST 2020,GET,https://google-gruyere.appspot.com/code/sanitize.py,200,OK,331,379,0,448,4996,Medium,
+Max Depth,315,Thu Nov 12 03:37:14 GST 2020,Thu Nov 12 03:37:14 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/editprofile.gtl,200,OK,260,407,0,448,7482,Medium,"Password, Hidden"
+Max Depth,318,Thu Nov 12 03:37:14 GST 2020,Thu Nov 12 03:37:15 GST 2020,GET,https://google-gruyere.appspot.com/code/gtl.py,200,OK,919,369,0,449,15231,Medium,
+Max Depth,316,Thu Nov 12 03:37:14 GST 2020,Thu Nov 12 03:37:15 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/feed.gtl,200,OK,349,393,0,448,1769,Medium,
+Max Depth,317,Thu Nov 12 03:37:15 GST 2020,Thu Nov 12 03:37:15 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/error.gtl,200,OK,305,395,0,447,975,Medium,
+Max Depth,319,Thu Nov 12 03:37:15 GST 2020,Thu Nov 12 03:37:15 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/menubar.gtl,200,OK,305,399,0,448,1889,Medium,
+Max Depth,320,Thu Nov 12 03:37:15 GST 2020,Thu Nov 12 03:37:15 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/home.gtl,200,OK,306,393,0,448,3533,Medium,
+Max Depth,321,Thu Nov 12 03:37:15 GST 2020,Thu Nov 12 03:37:16 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/manage.gtl,200,OK,304,397,0,448,1499,Medium,
+Max Depth,322,Thu Nov 12 03:37:15 GST 2020,Thu Nov 12 03:37:16 GST 2020,GET,https://google-gruyere.appspot.com/code/resources/dump.gtl,200,OK,305,393,0,448,1337,Medium,
+Max Depth,323,Thu Nov 12 03:37:16 GST 2020,Thu Nov 12 03:37:16 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/login?pw=ZAP&uid=ZAP,200,OK,614,451,0,454,2650,Medium,"Form, Password, Comment"
+Max Depth,324,Thu Nov 12 03:37:16 GST 2020,Thu Nov 12 03:37:16 GST 2020,GET,https://google-gruyere.appspot.com/395159434653261673339800166642086075240/saveprofile?action=new&is_author=True&pw=ZAP&uid=ZAP,200,OK,613,492,0,583,2224,Medium,"SetCookie, Comment"
