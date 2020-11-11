@@ -1,0 +1,5 @@
+Id,Req. Timestamp,Resp. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Header,Size Resp. Body
+325,Thu Nov 12 03:37:18 GST 2020,Thu Nov 12 03:37:19 GST 2020,GET,https://google-gruyere.appspot.com/WEB-INF/web.xml,404,Not Found,346,411,52
+326,Thu Nov 12 03:37:19 GST 2020,Thu Nov 12 03:37:19 GST 2020,GET,https://google-gruyere.appspot.com/WEB-INF/applicationContext.xml,404,Not Found,238,415,52
+327,Thu Nov 12 03:37:19 GST 2020,Thu Nov 12 03:37:20 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/logout,200,OK,682,563,3486
+328,Thu Nov 12 03:37:20 GST 2020,Thu Nov 12 03:37:20 GST 2020,GET,https://google-gruyere.appspot.com/635875614086661807845761977814445586383/logout/,200,OK,437,454,2233
