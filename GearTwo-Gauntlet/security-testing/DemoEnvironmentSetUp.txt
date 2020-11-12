@@ -1,0 +1,32 @@
+➜ make get-gruyere
+latest: Pulling from karthequian/gruyere
+40d2dd735025: Pull complete 
+268c43929921: Pull complete 
+50b51969f086: Pull complete 
+Digest: sha256:4a18190fd567996751bf4e9e5fbb1e14aee342f28f1f928118d1c140da328584
+Status: Downloaded newer image for karthequian/gruyere:latest
+docker.io/karthequian/gruyere:latest
+(base) 
+AXLE-DevSecOps-ToolChain/GearTwo-Gauntlet/security-testing on  master [?] via 🅒 base took 21s 
+➜ make gruyere-start
+2254e6966e8dff7109770756c859c2ecf232d6d4404b335c7416c602d7aa7868
+Gruyere is now serving dairy at localhost:8008...
+(base) 
+AXLE-DevSecOps-ToolChain/GearTwo-Gauntlet/security-testing on  master [?] via 🅒 base 
+➜ docker ps
+CONTAINER ID        IMAGE                        COMMAND               CREATED             STATUS              PORTS                    NAMES
+2254e6966e8d        karthequian/gruyere:latest   "python gruyere.py"   41 seconds ago      Up 39 seconds 
+(base) 
+AXLE-DevSecOps-ToolChain/GearTwo-Gauntlet/security-testing on  master [?] via 🅒 base 
+➜ make gruyere-kill
+2254e6966e8d
+(base) 
+AXLE-DevSecOps-ToolChain/GearTwo-Gauntlet/security-testing on  master [?] via 🅒 base 
+➜ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+(base) 
+AXLE-DevSecOps-ToolChain/GearTwo-Gauntlet/security-testing on  master [?] via 🅒 base 
+➜ make gruyere-start
+c913a569646c094464188f4e1f133b9cb41f3bb53976ca5de63fc53663bff2d6
+Gruyere is now serving dairy at localhost:8008...
+(base) 

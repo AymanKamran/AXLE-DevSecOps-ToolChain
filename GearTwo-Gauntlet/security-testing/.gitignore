@@ -1,0 +1,4 @@
+*.pdf
+*.afr
+attacks/tmp
+out.html
