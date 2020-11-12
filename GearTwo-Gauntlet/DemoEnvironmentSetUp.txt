@@ -1,3 +1,4 @@
+======== security-testing===============
 ➜ make get-gruyere
 latest: Pulling from karthequian/gruyere
 40d2dd735025: Pull complete 
@@ -33,3 +34,27 @@ Gruyere is now serving dairy at localhost:8008...
 
 Creating a profile and navigating to new snippet, we begin cross-site scripting:
 <a onmouseover="alert(1)" href="#">test3</a>
+
+======== gauntlt-docker===============
+10035  make build
+10036  ruby -v
+10038  xcode-select --install
+10039  xcode-select
+10040  xcode-select -v
+10041  softwareupdate --help
+10042  softwareupdate --l
+10043  softwareupdate -l
+// updating Xcode by deleting then re-installing
+10044  sudo rm -rf /Library/Developer/CommandLineTools\n
+10045  xcode-select --install\n
+// checking if brew works nthen upgrading/updating
+10046  brew doctor
+10047  brew update && brew upgrade
+brew install gnupg2
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 
+409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm install ruby --latest
+If you want to install an older version:
+rvm install ruby-2.4.0
