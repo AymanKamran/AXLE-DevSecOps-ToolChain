@@ -30,3 +30,6 @@ AXLE-DevSecOps-ToolChain/GearTwo-Gauntlet/security-testing on  master [?] via
 c913a569646c094464188f4e1f133b9cb41f3bb53976ca5de63fc53663bff2d6
 Gruyere is now serving dairy at localhost:8008...
 (base) 
+
+Creating a profile and navigating to new snippet, we begin cross-site scripting:
+<a onmouseover="alert(1)" href="#">test3</a>
